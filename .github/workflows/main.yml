@@ -11,9 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Update wiki
     permissions:
-      contents: read
-      pages: write
-      checks: write
+      contents: write
     steps:
     - uses: OrlovM/Wiki-Action@v1
       with:
