@@ -1,2 +1,6 @@
-Hello
+# Hello
 new for branch task rules
+```cs
+foreach (var element in array)
+  Console.WriteLine(element);
+```
